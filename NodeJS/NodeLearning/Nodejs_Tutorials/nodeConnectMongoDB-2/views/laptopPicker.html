@@ -1,0 +1,24 @@
+<html>
+
+<body>
+
+    <!-- favourite_laptop is the url for post request from app.js-->
+    <form action="/favourite_laptop" method="POST">
+
+        <p>What is your Favourite Laptop?</p>
+        <!-- laptops is the array from app.js-->
+        {% for laptop in laptops %}
+        <p>
+            <input type="radio" name="laptop" value="{{laptop}}">
+            <!-- laptop is the value from for loop-->
+
+            {{laptop}}</input>
+        </p>
+        {% endfor %}
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+
+
+</html>
