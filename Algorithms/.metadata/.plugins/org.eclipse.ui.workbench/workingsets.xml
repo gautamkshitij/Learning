@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1438306443588_1" label="Algorithms" name="Algorithms">
+<item elementID="=Algorithms" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SearchingAlgorithms" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1438306397062_0" label="Window Working Set" name="Aggregate for window 1438306397061"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1438658291437_2" label="Window Working Set" name="Aggregate for window 1438658291437"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1438788096526_3" label="Window Working Set" name="Aggregate for window 1438788096526"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1438814132672_4" label="Window Working Set" name="Aggregate for window 1438814132672"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1438897054194_5" label="Window Working Set" name="Aggregate for window 1438897054194"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1438918289319_6" label="Window Working Set" name="Aggregate for window 1438918289319"/>
+<mruList name="Algorithms"/>
+</workingSetManager>

@@ -1,0 +1,62 @@
+package Implementation.LinkedList.unordered;
+
+public class SequentialSearchST<Key, Value> {
+
+	Node first;
+
+	private class Node {
+		Key key;
+		Value value;
+		Node next;
+
+		public Node(Key key, Value value, Node next) {
+			this.key = key;
+			this.setValue(value);
+			this.next = next;
+
+		}
+
+		public Value getValue() {
+			return value;
+		}
+
+		public void setValue(Value value) {
+			this.value = value;
+		}
+
+		public Key getKey() {
+			return this.key;
+		}
+
+		public void setKey(Key key) {
+			this.key = key;
+		}
+
+		public Node getNextNode() {
+			return this.next;
+		}
+
+		public void setNextNode(Node next) {
+			this.next = next;
+		}
+	}
+
+	public void put(Key key, Value value) {
+		for (Node x = first; x != null; x = x.getNextNode()) {
+			if (key.equals(x.getKey())) {
+				x.setValue(value);
+			}
+		}
+		/*
+		 * Going through all elements thus taking time N to insert an element.
+		 */
+		first = new Node(key, value, first);
+		/*
+		 * Here first node is being pushed back so that new node is inserted in
+		 * the front. Every time new node is inserted, it becomes the first
+		 * node.
+		 */
+
+	}
+
+}

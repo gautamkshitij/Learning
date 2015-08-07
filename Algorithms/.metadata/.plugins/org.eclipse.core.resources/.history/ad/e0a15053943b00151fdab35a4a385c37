@@ -1,0 +1,38 @@
+package Implementation.LinkedList.ordered;
+
+/*
+ *We use Symbol table to search. And Binary search is a better algorithm. But for that 
+ *data structure should be in an ordered array. 
+ * Therefore we keep keys in an ordered array and then lookup the value of that key from Value array
+ * */
+public class BinarySearchST<Key, Value> {
+
+	private Key[] keys;
+	private Value[] values;
+	int N;
+
+	public Key[] getKeys() {
+		return keys;
+	}
+
+//	public void setKeys(Key[] keys) {
+//		this.keys = keys;
+//	}
+
+	public Value[] getValues() {
+		return values;
+	}
+
+//	public void setValues(Value[] values) {
+//		this.values = values;
+//	}
+
+	public int getN() {
+		return N;
+	}
+
+	public void setN(int n) {
+		N = n;
+	}
+
+}

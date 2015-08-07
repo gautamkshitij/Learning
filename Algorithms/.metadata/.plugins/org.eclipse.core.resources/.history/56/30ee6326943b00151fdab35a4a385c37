@@ -1,0 +1,10 @@
+package Implementation.LinkedList.ordered;
+
+/*
+ *We use Symbol table to search. And Binary search is a better algorithm. But for that 
+ *data structure should be in an ordered array. 
+ * 
+ * */
+public class BinarySearchST {
+
+}

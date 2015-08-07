@@ -1,0 +1,8 @@
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.default.color=83,83,88
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.deprecatedKey.color=171,37,37
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.keyword.color=66,109,192
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.number.color=243,140,0
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.punctuation.color=83,83,88
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.string.color=243,140,0
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.task.color=162,162,162
+eclipse.preferences.version=1

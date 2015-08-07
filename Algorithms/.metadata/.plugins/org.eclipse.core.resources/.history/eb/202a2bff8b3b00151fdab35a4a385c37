@@ -1,0 +1,16 @@
+package LinkedList;
+
+public class SequentialSearchST<Key, Value> {
+
+	
+	public class Node{
+		
+		Key key;
+		Value value;
+		Node first;
+		Node next;
+		
+		
+	}
+	
+}
